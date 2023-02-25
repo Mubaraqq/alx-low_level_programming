@@ -4,7 +4,7 @@
 /**
  * main - entry point
  * Description: checks and prints the last digit of a randomly generated number
- * return 0
+ * return: return 0
  */
 int main(void)
 {
@@ -18,15 +18,15 @@ int main(void)
 	/*checking the conditions*/
 	if (m > 5)
 	{
-		printf("The last digit of %d is %d and is greater than 5\n", n, m);
+		printf("last digit of %d is %d and is greater than 5\n", n, m);
 	}
 	else if (m == 0)
 	{
-		printf("The last digit of %d is %d and is 0\n", n, m);
+		printf("last digit of %d is %d and is 0\n", n, m);
 	}
 	else if (m < 6 && m != 0)
 	{
-		printf("The last digit of %d is %d and is less than 6 and is not 0\n", n, m);
+		printf("last digit of %d is %d and is less than 6 and not 0\n", n, m);
 	}
 	return (0);
 }
