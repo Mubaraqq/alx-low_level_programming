@@ -2,8 +2,7 @@
 
 /**
 * _abs - computes absolute value
-*
-* @n: argument
+* @n: parameter/argument
 * Return: return the absolute value
 */
 
