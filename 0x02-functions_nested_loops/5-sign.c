@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * print_sign- entry point
  * Description: prints the sign of a number.
@@ -19,7 +19,7 @@ int print_sign(int n)
 	}
 	else if (n < 0)
 	{
-		_putchar('-1');
-		return (0);
+		_putchar('-');
+		return (-1);
 	}
 }
