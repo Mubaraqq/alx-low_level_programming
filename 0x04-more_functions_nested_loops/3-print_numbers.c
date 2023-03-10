@@ -2,17 +2,16 @@
 
 /**
  * print_numbers - prints the numbers
- * @x: number variable
+ * @i: number variable
  */
 
 void print_numbers(void)
 {
-	int x = 0;
+	int i;
 
-	while (x < 10)
+	for (i = '0'; i <= '9'; i++)
 	{
-		_putchar(x);
-		x++;
+		_putchar(i);
 	}
 	_putchar('\n');
 }
