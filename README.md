@@ -1,1 +1,1 @@
-This repository contains program (mostly functions) written in C programming Language
+This repository contains programs (mostly functions) written in C programming Language
